@@ -2,9 +2,10 @@ const express = require("express");
 const app = express();
 const axios = require("axios");
 const cors = require("cors");
-//k_cwfzdb8b - alex
-//k_6zs3dw2f - lidor
-API_KEY = "k_6zs3dw2f";
+
+// YOUR API KEY
+API_KEY = "YOUR API KEY";
+
 app.use(cors());
 app.use(express.static("./"));
 
